@@ -18,6 +18,7 @@ $ flask db upgrade
 $ flask run
 
 ==================================================
+# Endpoints details
 To create a project record, you can send the payload in the form body ('title', 'description', 'completed') at URL '/'.
 
 To GET all the records, just call the [GET] request at '/'.
